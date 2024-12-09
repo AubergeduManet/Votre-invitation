@@ -1,0 +1,77 @@
+/* Style global */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* En-tête */
+.header {
+    background-color: #8c9233; /* Vert olive */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Contenu principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #8c9233; /* Vert olive */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #8c9233;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #6e731d;
+}
+
+/* Pied de page */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #8c9233;
+    color: white;
+    margin-top: 20px;
+}
